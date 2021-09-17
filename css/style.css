@@ -1,0 +1,907 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../img/hero-bg.jpg');
+    width: 100%;
+    height: 120vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.upp-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.banner {
+    padding-left: 90px;
+}
+
+.banner h1 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    padding-top: 90px;
+}
+
+.banner h2 {
+    font-size: 6.5rem;
+    font-weight: bolder;
+}
+
+.custom-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-txt {
+    padding-bottom: 20px;
+}
+
+.banner-text::after {
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 10px;
+    background-color: white;
+}
+
+.banner-content {
+    padding-top: 50px;
+}
+
+.middle-img {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.banner-img {
+    height: 80px;
+}
+
+.banner-under-text {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-txt {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.aft-header {
+    background-color: #e6e6e6;
+    width: 100%;  
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
+
+.aft-header-content {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.aft-header-content .main-heading {
+    font-weight: lighter;
+    color: #a6a6a6;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.aft-header-content h3 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+}
+
+.aft-header-content p {
+    font-weight: 3px;
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+    line-height: 2rem;
+}
+
+.button-section .button {
+    padding: 20px 35px;
+    border-radius: 5%;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(240, 36, 36);
+    border: unset;
+    cursor: pointer;
+}
+
+.middle-sect {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.billion-one {
+    width: 50%;
+}
+
+.billion-img-1 {
+    padding-bottom: 30px;
+}
+
+.billion-img {
+    width: 480px;
+}
+
+.billion-one p {
+    font-size: 17px;
+    font-weight: lighter;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 70px;
+}
+
+.billion-two {
+    width: 50%;
+    padding-top: 60px;
+    padding-left: 35px;
+}
+
+.billion-two h3 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.billion-two p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 70px;
+    color: red;
+}
+
+.quality-sect {
+    background-color: #cccccc;   
+}
+
+.quality {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.quality-img {
+    height: 600px;
+}
+
+.quality-content {
+    margin-top: 10rem;
+    margin-left: 4rem;
+}
+
+.quality-content h2 {
+    color: #002b80;
+    font-size: 4.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.quality-content .extra-content {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding-bottom: 0.4rem;
+}
+
+.quality-content .extra-content::before {
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 8px;
+    background-color: rgb(240, 36, 36);
+}
+
+.quality-bttn .button {
+    padding: 20px 35px;
+    border-radius: 5%;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(240, 36, 36);
+    border: unset;
+    cursor: pointer;
+}
+
+.services {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+.upper-service h2 {
+    font-size: 2.8rem;
+}
+
+.lower-service {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.service-icon {
+    background-color: rgb(240, 36, 36);
+    height: 90px;
+    padding: 15px 15px;
+    border-radius: 40%;
+    margin-bottom: 20px;
+}
+
+.row-50 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.service-txt {
+    font-style: italic;
+}
+
+.service-head {
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.plumbing {
+    background-color: #002b80;
+    padding-bottom: 5rem;
+}
+
+.plumbing-content {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    color: white;
+}
+.plumbing-about {
+    padding-top: 9rem;
+    padding-bottom: 10px;
+}
+
+.plumbing-text {
+    margin-right: 2.5rem;
+}
+
+.plumbing-txt {
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+.plumbing-services {
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.plumbing-image {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plumbing-img {
+    height: 180px;
+    width: 270px;
+}
+
+.footer-section {
+    padding-top: 5.8rem;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.footer-content h3 {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.footer-content h4 {
+    font-size: 1.8rem;
+    font-weight: lighter;
+    line-height: 3rem;
+    padding-bottom: 30px;
+}
+
+.footer-content .book-now {
+    padding: 20px 35px;
+    border-radius: 5%;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(240, 36, 36);
+    border: unset;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.footer-content .call-us {
+    padding: 20px 35px;
+    border-radius: 5%;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+@media (max-width: 375px) {
+    header {
+        background-image: url('../img/hero-bg.jpg');
+        width: auto;
+        height: 120vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+    }
+    
+    .upp-header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    
+    .banner {
+        padding-left: 20px;
+    }
+    
+    .banner h1 {
+        font-size: 2rem;
+        font-weight: lighter;
+        padding-top: 40px;
+    }
+    
+    .banner h2 {
+        font-size: 3.5rem;
+        font-weight: bolder;
+    }
+    
+   
+    .banner-txt {
+        padding-bottom: 5px;
+    }
+    
+    .middle-img {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .banner-img {
+        height: 60px;
+    }
+    
+    .banner-under-text {
+        font-size: 8px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .middle-txt {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    
+    .aft-header {
+        background-color: #e6e6e6;
+        width: 100%;  
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+    
+    .aft-header-content {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .aft-header-content .main-heading {
+        font-weight: lighter;
+        color: #a6a6a6;
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    
+    .aft-header-content h3 {
+        font-weight: bolder;
+        font-size: 2.5rem;
+        padding-bottom: 30px;
+    }
+    
+    .aft-header-content p {
+        font-weight: 3px;
+        font-size: 1.3rem;
+        padding-bottom: 20px;
+        line-height: 2rem;
+    }
+    
+    .button-section .button {
+        padding: 20px 35px;
+        border-radius: 5%;
+        margin-top: 20px;
+        color: white;
+        background-color: rgb(240, 36, 36);
+        border: unset;
+        cursor: pointer;
+    }
+    
+    .middle-sect {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+   
+    .billion-img-1 {
+        padding-bottom: 20;
+    }
+    
+    .billion-one {
+        width: 100%;
+    }
+    .billion-img {
+        width: 320px;
+    }
+    
+    .billion-one p {
+        font-size: 17px;
+        font-weight: lighter;
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .billion-two {
+        width: 100%;
+        padding-top: 25px;
+        padding-left: 0;
+    }
+    
+    .billion-two h3 {
+        font-size: 22px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    
+    .billion-two p {
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        color: red;
+    }
+    
+    .quality-sect {
+        background-color: #cccccc;   
+    }
+    
+    .quality {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .quality-img {
+        height: 470px;
+    }
+    
+    .quality-content {
+        margin-top: 3rem;
+        margin-left: 0;
+    }
+    
+    .quality-content h2 {
+        color: #002b80;
+        font-size: 3.2rem;
+        padding-bottom: 0.8rem;
+    }
+    
+    .quality-content .extra-content {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        padding-bottom: 0.4rem;
+    }
+    
+    .quality-content .extra-content::before {
+        content: '';
+        position: absolute;
+        width: 45%;
+        height: 8px;
+        background-color: rgb(240, 36, 36);
+    }
+    
+    .quality-bttn .button {
+        padding: 20px 35px;
+        border-radius: 5%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+        background-color: rgb(240, 36, 36);
+        border: unset;
+        cursor: pointer;
+    }
+
+    .plumbing {
+        background-color: #002b80;
+        padding-bottom: 5rem;
+    }
+    
+    .plumbing-content {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        color: white;
+    }
+    .plumbing-about {
+        padding-top: 5rem;
+        padding-bottom: 10px;
+    }
+    
+    .plumbing-text {
+        margin-right: 2.5rem;
+    }
+    
+    .plumbing-txt {
+        font-size: 3.5rem;
+        font-weight: lighter;
+    }
+    
+    .plumbing-services {
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+    
+    .plumbing-image {
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .plumbing-img {
+        height: 250px;
+        width: 340px;
+    }
+    
+    .footer-section {
+        padding-top: 5.8rem;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+    
+    .footer-content h3 {
+        font-size: 1.7rem;
+        font-weight: bolder;
+        padding-bottom: 30px;
+    }
+    
+    .footer-content h4 {
+        font-size: 1.3rem;
+        font-weight: lighter;
+        line-height: 3rem;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 769px) and (min-width: 380px) {
+    header {
+        background-image: url('../img/hero-bg.jpg');
+        width: auto;
+        height: 120vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+    }
+    
+    .upp-header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 12px;
+    }
+    
+    .banner {
+        padding-left: 50px;
+    }
+    
+    .banner h1 {
+        font-size: 3rem;
+        font-weight: lighter;
+        padding-top: 40px;
+    }
+    
+    .banner h2 {
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+    
+   
+    .banner-txt {
+        padding-bottom: 5px;
+    }
+    
+    .middle-img {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .banner-img {
+        height: 80px;
+    }
+    
+    .banner-under-text {
+        font-size: 15px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .middle-txt {
+        padding-left: 45px;
+        padding-right: 42px;
+    }
+    
+    .aft-header {
+        background-color: #e6e6e6;
+        width: 100%;  
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+    
+    .aft-header-content {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .aft-header-content .main-heading {
+        font-weight: lighter;
+        color: #a6a6a6;
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    
+    .aft-header-content h3 {
+        font-weight: bolder;
+        font-size: 2.5rem;
+        padding-bottom: 30px;
+    }
+    
+    .aft-header-content p {
+        font-weight: 3px;
+        font-size: 1.3rem;
+        padding-bottom: 20px;
+        line-height: 2rem;
+    }
+    
+    .button-section .button {
+        padding: 20px 35px;
+        border-radius: 5%;
+        margin-top: 20px;
+        color: white;
+        background-color: rgb(240, 36, 36);
+        border: unset;
+        cursor: pointer;
+    }
+    
+    .middle-sect {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+   
+    .billion-img-1 {
+        padding-bottom: 20;
+    }
+    
+    .billion-one {
+        width: 100%;
+    }
+    .billion-img {
+        width: 620px;
+    }
+    
+    .billion-one p {
+        font-size: 20px;
+        font-weight: lighter;
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .billion-two {
+        width: 100%;
+        padding-top: 25px;
+        padding-left: 0;
+    }
+    
+    .billion-two h3 {
+        font-size: 40px;
+        font-weight: bold;
+        padding-bottom: 25px;
+    }
+    
+    .billion-two p {
+        font-size: 28px;
+        font-weight: bold;
+        padding-bottom: 30px;
+        color: red;
+    }
+    
+    .quality-sect {
+        background-color: #cccccc;   
+    }
+    
+    .quality {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .quality-img {
+        height: 670px;
+    }
+    
+    .quality-content {
+        margin-top: 3rem;
+        margin-left: 0;
+    }
+    
+    .quality-content h2 {
+        color: #002b80;
+        font-size: 3.2rem;
+        padding-bottom: 1.2rem;
+    }
+    
+    .quality-content .extra-content {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        padding-bottom: 0.6rem;
+    }
+    
+    .quality-content .extra-content::before {
+        content: '';
+        position: absolute;
+        width: 45%;
+        height: 8px;
+        background-color: rgb(240, 36, 36);
+    }
+    
+    .quality-bttn .button {
+        padding: 20px 35px;
+        border-radius: 5%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+        background-color: rgb(240, 36, 36);
+        border: unset;
+        cursor: pointer;
+    }
+
+    .plumbing {
+        background-color: #002b80;
+        padding-bottom: 5rem;
+    }
+    
+    .plumbing-content {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        color: white;
+    }
+    .plumbing-about {
+        padding-top: 5rem;
+        padding-bottom: 10px;
+    }
+    
+    .plumbing-text {
+        margin-right: 2.5rem;
+    }
+    
+    .plumbing-txt {
+        font-size: 3.5rem;
+        font-weight: lighter;
+    }
+    
+    .plumbing-services {
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+    
+    .plumbing-image {
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .plumbing-img {
+        height: 250px;
+        width: 340px;
+    }
+    
+    .footer-section {
+        padding-top: 5.8rem;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+    
+    .footer-content h3 {
+        font-size: 1.7rem;
+        font-weight: bolder;
+        padding-bottom: 30px;
+    }
+    
+    .footer-content h4 {
+        font-size: 1.3rem;
+        font-weight: lighter;
+        line-height: 3rem;
+        padding-bottom: 30px;
+    }
+}
